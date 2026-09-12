@@ -145,3 +145,11 @@ def analyze_email():
 if __name__ == "__main__":
     # Run locally or behind an enterprise production WSGI server like Gunicorn
     app.run(host="0.0.0.0", port=5000, debug=False)
+
+    @app.route("/", methods=["GET"])
+def home():
+    return jsonify({
+        "status": "online",
+        "service": "Safewave Phishing Detection API",
+        "endpoint": "/api/v1/analyze-email"
+    }), 200
