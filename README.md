@@ -31,7 +31,7 @@
 ## 🚀 API Endpoint Reference
 
 ### Base URL
-`https://your-project.vercel.app`
+https://safewave-phishing-detector.vercel.app/
 
 ### 1. Health Check (GET)
 * **Endpoint:** `/`
@@ -60,5 +60,5 @@
 Built for high availability and low latency on Vercel's serverless edge infrastructure. Protected via cryptographic header validation to prevent unauthorized telemetry injection.
 
 <div align="center">
-<b>Safewave Solutions Enterprise — Securing Digital Infrastructure</b>
+<b>Safewave Solutions Enterprise # Next-Gen Security for Next-Gen Threats</b>
 </div>
